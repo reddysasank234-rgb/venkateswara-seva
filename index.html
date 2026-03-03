@@ -6,41 +6,74 @@
         body {
             font-family: Arial;
             background-color: #fff8e7;
-            text-align: center;
             margin: 0;
+            text-align: center;
         }
+
         header {
             background-color: maroon;
             color: white;
             padding: 20px;
         }
-        section {
-            padding: 20px;
-        }
-        footer {
+
+        nav {
             background-color: gold;
             padding: 10px;
+        }
+
+        nav a {
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px;
+        }
+
+        footer {
+            background-color: maroon;
+            color: white;
+            padding: 15px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Om Namo Venkatesaya</h1>
+    <h1>Om Namo Venkatesaya 🙏</h1>
     <h2>Service to Lord Venkateswara</h2>
 </header>
 
-<section>
-    <h3>About Lord Venkateswara</h3>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#sloka">Daily Sloka</a>
+    <a href="#festivals">Festivals</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome</h2>
+    <p>Dedicated with devotion to Lord Venkateswara.</p>
+</section>
+
+<section id="about">
+    <h2>About Lord Venkateswara</h2>
     <p>
         Lord Venkateswara is an incarnation of Lord Vishnu.
         He resides at Tirumala and is worshipped as Srinivasa, Balaji, and Govinda.
     </p>
 </section>
 
-<section>
-    <h3>Daily Sloka</h3>
+<section id="sloka">
+    <h2>Daily Sloka</h2>
     <p>Om Namo Venkatesaya</p>
+</section>
+
+<section id="festivals">
+    <h2>Festivals</h2>
+    <p>Brahmotsavam, Vaikunta Ekadasi, Rathotsavam</p>
 </section>
 
 <footer>
